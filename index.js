@@ -69,7 +69,7 @@ document.getElementById("footer").innerHTML +=
     `
  <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="About us.html">About us</a></li>
                 <li><a href="Today.html">Today</a></li>
                 <li><a href="World.html">World</a></li>
