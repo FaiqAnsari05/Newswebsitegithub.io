@@ -1,0 +1,200 @@
+body {
+    font-family: sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(178, 38, 38);
+    height: 50px;
+    padding: 10px 20px;
+
+
+}
+
+.logo {
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav .navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 80px;
+
+}
+
+nav .navbar li {
+    margin-left: 20px;
+    margin: 20px;
+
+}
+
+nav .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav .navbar a:hover {
+    color: #ddd;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-right: -40px;
+    font-size: 15px;
+
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    margin-right: -80px;
+    border-radius: 20px;
+
+
+
+}
+
+.search-box button {
+    padding: 6px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 90px;
+    background-color: white;
+    color: black;
+
+
+}
+
+.search-box button:hover {
+    background-color: #a4a3a3;
+}
+
+
+.usericon {
+    color: white;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 9px;
+    margin-right: 6px;
+
+
+
+}
+.usericon2{
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+    margin-top: 9px;
+    margin-right: -10px;
+}
+
+.usericon2:hover{
+    color: #777;
+}
+
+.usericon:hover {
+    color: #777;
+}
+
+
+
+/* <!-- About us Section  --> */
+
+
+.about-us h1 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    
+    
+}
+
+.about-us img {
+    width: 80%;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 30px;
+    box-shadow:  4px 2px 2px 2px rgb(200, 45, 45);
+
+}
+
+
+.about-us p{
+    margin-top: 40px;
+    line-height: 1.3rem;
+    margin-bottom: 60px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: start;
+    
+    
+}
+
+
+
+
+/* <!-- footer Section  --> */
+
+footer {
+    background-color: rgb(178, 38, 38);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 20px;
+    text-decoration: underline;
+}
+
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: rgb(112, 107, 107);
+}
+
+.social-media {
+    margin-top: 10px;
+
+}
+
+.social-media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.social-media a:hover {
+    color: rgb(97, 94, 94);
+}
+
+span:hover {
+    color: rgb(97, 94, 94);
+}
